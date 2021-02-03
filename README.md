@@ -1,1 +1,1 @@
-# take_datas_from_internet
+Pulling datas from the internet using Request and Beatiful Soup libraries (Premier League Table)
