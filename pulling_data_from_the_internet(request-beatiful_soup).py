@@ -26,7 +26,7 @@ for category in categories:
     # After 'numbers' category is over, new category will be 'team_names'. indice of team_names will be 1. j value will be (1,12,23,34,45,56,...). We will change string 
     # 'team_names' value to variable 'team_names' value. And we will add datas[j] values (in this case these values will be:'\nLiverpool\n','\nManchester City\n',
     # '\nManchester United\n',... ) to team_names list. As you can see there are '\n' characters in these names. To delete these characters we use replace command.
-    # And for loop will continue to every categories are seperated.
+    # And for loop will continue until every categories are seperated.
     for j in range(indice,len(datas),11):
         globals()[category].append(datas[j].replace('\n',''))
 
